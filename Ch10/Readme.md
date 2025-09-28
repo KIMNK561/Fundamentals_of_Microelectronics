@@ -1,3 +1,4 @@
+# Differential Amplifiers
  It is difficult to make perfectly ripple-free DC voltage sources. For example, DC–DC
 converters generate voltage by switching current paths. Although a low-pass filter
 reduces the ripple, some ripple caused by switching is inevitable. Common-emitter (CE)
@@ -17,8 +18,7 @@ differential output. But if asymmetry arises—for example, due to manufacturing
 mismatch—then common-mode gain is converted into differential output. This effect is
 called common-mode to differential-mode conversion $A_{CM-DM} = \frac{ΔV_{out}}{ΔV_{CM}}$.
 
-<img src="../images/Diff-pair.jpg" alt="Diff-pair" width="700"/>
-
 A larger differential gain generally leads to a larger $A_{CM-DM}$. The ratio of
 differential gain $V_{DM}$ to $A_{CM-DM}$ is the common-mode rejection ratio (CMRR). 
  
+<img src="../images/Diff-pair.jpg" alt="Diff-pair" width="700"/>
