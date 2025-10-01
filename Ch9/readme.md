@@ -3,7 +3,7 @@
 headroom, unlike a degeneration resistor whose headroom-consume increases linearly with current. The voltage headroom refers to the upper 
 and lower boundaries of the output voltage that must be maintained for the transistors to remain in their intended operating region.
 
-<img src="../images/cascode.jpg" alt="Diff-pair" width="700"/>
+<img src="../images/cascode.jpg" alt="cascode.jpg" width="700"/>
 
 &nbsp; The increased output impedance is useful in many applications, but the most important cases are **current sources and amplifiers**. An 
 ideal current source with infinite impedance supplies the same current regardless of voltage changes. For example, once we turn on a faucet, we
