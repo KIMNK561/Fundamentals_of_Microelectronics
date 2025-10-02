@@ -14,3 +14,12 @@ degeneration transistor.
 &nbsp; With higher output impedance, we also obtain higher gain, as shown by the equation $A_v=-G_m R_{out}$​. This equation can be derived
 by converting the circuit into its Norton equivalent. The transconductance $G_m$  does not change significantly when we add the cascode transistor,
 but $R_{out}$ increases greatly. 
+
+# Current mirror
+&nbsp; Changes in supply voltage and temperature lead to variations in **bias current**. **Bandgap reference circuits** provide a current that is 
+independent of both temperature and supply voltage. Since many current sources must remain stable across these variations, bandgap reference circuits
+are essential. However, they occupy a large area, so using them everywhere is not practical. Instead, **current mirrors** replicate the stable current
+from one bandgap reference while occupying only a small area.
+
+## Key Equations
+$$R_{out}=[1+g_{m1}(ro)]$$
