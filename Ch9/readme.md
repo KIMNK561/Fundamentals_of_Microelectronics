@@ -33,4 +33,4 @@ $$I_{copy}=\frac{I_{s1}}{I_{s,REF}} I_{REF}$$
 - **BJT current Mirror**
 $$I_{copy}=\frac{nI_{s1}}{1+\frac{1}{β} (n+1)}$$
 - **MOSFET current Mirror**
-$$I_{copy}=\frac{(W/L)_1}{(W/L)_{REF}} I_{REF}$$
+- $$I_{copy}=\frac{(\frac{W}{L})_1}{(\frac{W}{L})_{REF}} I_{REF}$$
