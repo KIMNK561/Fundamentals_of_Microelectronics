@@ -22,4 +22,4 @@ are essential. However, they occupy a large area, so using them everywhere is no
 from one bandgap reference while occupying only a small area.
 
 ## Key Equations
-$$R_{out}=[1+g_{m1}(ro)]$$
+$$R_{out}=[1+g_{m1} (R_E||r_{π1})] r_{o1}+(R_E||r_{π1})$$
