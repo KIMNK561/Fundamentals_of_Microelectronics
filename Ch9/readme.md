@@ -22,4 +22,15 @@ are essential. However, they occupy a large area, so using them everywhere is no
 from one bandgap reference while occupying only a small area.
 
 ## Key Equations
-$$R_{out}=[1+g_{m1} (R_E||r_{π1})] r_{o1}+(R_E||r_{π1})$$
+- **Output Resistance (CE with Degeneration, general form)**
+$$R_{out}=[1+g_{m1} (R_E//r_{π1})] r_{o1}+(R_E//r_{π1})$$
+- **Output Resistance (CS with Degeneration, general form)**
+$$R_{out}=[1+g_{m1} R_E] r_{o1}+R_E$$
+- **Voltage Gain**
+$$A_v=-G_m R_{out}$$
+- **BJT current Mirror(ignoring base current)**
+$$I_{copy}=\frac{I_{s1}}{I_{s,REF}} I_{REF}$$
+- **BJT current Mirror**
+$$I_{copy}=\frac{nI_{s1}}{1+\frac{1}{β} (n+1)}$$
+- **MOSFET current Mirror**
+$$I_{copy}=\frac{(W/L)_1}{(W/L)_{REF}} I_{REF}$$
